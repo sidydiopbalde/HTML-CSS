@@ -1,0 +1,36 @@
+
+.conteneur{
+    width:50%;
+    border: 2px solid green;
+    margin:auto;
+    margin-top:30px;
+}
+.haut{
+  background-color: orange;
+  padding:20px;
+ 
+}
+.Menu{
+    background-color: blue;
+    padding:0px;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+.milieu{
+    background-color:red;
+    padding:15%;
+    margin:12px;
+    border: 2px solid green;
+}
+.Bas{
+  background-color: orange;
+  padding:20px;
+  border-top: 2px solid green;
+  
+}
+span
+{
+    position: relative;
+    bottom: 150px;
+    right:120px;
+}

@@ -1,0 +1,81 @@
+.conteneur{
+    
+    width: 30%;
+    
+    margin: auto;
+    margin-top:100px;
+}
+ .header{
+ background-color: red;
+ height: 100%;
+ padding: 10px;
+ border: 2px solid black;
+ width:93%;
+}
+span{
+    position:relative;
+    left:200px;
+}
+.bas{
+    position:relative;
+    left:160px;
+}
+.content{
+    
+    width: 100%;
+    height: 500px;
+    overflow: hidden; /*empeche les block de se deplacer*/
+ }
+ .cnt1, .cnt2, .cnt3,.cnt4,.cntA,.cntB,.cntI,.footer{
+    float: left;
+    width: 5%;
+    height: 100%;
+    overflow: hidden;
+    border: 2px solid black;
+    
+}
+.cnt1{
+    background-color: fuchsia;
+    width: 16%;
+    height: 100%;
+    border: 2px solid black;
+}
+.cnt2{
+    background-color: blue;
+    width: 12%;
+    height: 90%;
+}
+.cnt3{
+    background-color: gray;
+    width: 12%;
+    height: 90%;
+}
+.cnt4{
+    background-color: white;
+    width: 12%;
+    height: 90%;
+}
+.cntA{
+    background-color: black;
+    width: 12%;
+    height: 90%;
+}
+.cntB{
+    background-color: maroon;
+    width: 12%;
+    height: 90%;
+}
+
+.cntI{
+    background-color: green;
+    width: 16.5%;
+    height: 100%;
+}
+.footer{
+    background-color: yellow;
+    position: relative;
+    bottom:54px;
+    width:63%;
+    height:50px;
+    left:92px;
+}

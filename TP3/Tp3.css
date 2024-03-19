@@ -1,0 +1,105 @@
+.container{
+    display: block;
+    width: 40%;
+    border: 3px solid black;
+    padding-top:1px;
+    margin: auto;
+   
+
+}
+.container .header,.footer{
+   background-color: yellow;
+height: 100%;
+padding:9px;
+
+
+
+}
+.container .main{
+    background-color: blue;
+    margin-top: -20px;
+   
+
+} 
+.content{
+   background-color: rgb(11, 80, 34);
+   width: 90%;
+   height: 600px;
+   overflow: hidden; /*empeche les block de se deplacer*/
+   margin-top: 15px;
+   margin-left: 35px;
+ 
+}
+.content1, .content2, .content3,.content4{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 2px 0px 2px 0px;
+    overflow: hidden;
+}
+.cnt1,.cnt2,.cnt3,.cnt4{
+    width:40%;
+    height:40%;
+    background-color: gray;
+    border: 2px solid black;
+    float:left;
+    margin: 2px 0px 2px 0px;
+}
+.content .content1{
+    background-color: red;
+}
+.cnt1{
+    position:relative;
+    top:10px;
+    left:8px;
+}
+.cnt2{
+ position:relative;
+ top:10px;
+left:40px;
+
+}
+.cnt3{
+    position:relative;
+    left:8px;
+    bottom:-36px;
+}
+.cnt4{
+    position:relative;
+    left:60px;
+    bottom:-36px;
+    left:40px;
+}
+
+
+.content .content2{
+    background-color: rgb(243, 236, 236);
+}
+.content .content3{
+    background-color: rgb(112, 4, 89); 
+}
+.cntI,.cntII{
+    width:40%;
+    height:40%;
+    background-color: gray;
+    border: 2px solid black;
+    float:left;
+    margin: 2px 0px 2px 0px;
+}
+.cntI{
+    position:relative;
+    top:80px;
+    left:8px;
+}
+.cntII{
+    position:relative;
+    top:80px;
+    left:40px;
+}
+.content .content4{
+    background-color: #3fb130;
+}
+.footer{
+   margin-top: 15px;
+   border-top: 1px solid black;
+}
